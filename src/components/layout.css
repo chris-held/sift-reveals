@@ -6,10 +6,12 @@
 
 h1 {
   @apply text-6xl;
+  text-transform: uppercase;
 }
 h2 {
-  @apply text-xl;
+  @apply text-4xl;
+  text-transform: uppercase;
 }
 h3 {
-  @apply text-lg;
+  @apply text-2xl;
 }

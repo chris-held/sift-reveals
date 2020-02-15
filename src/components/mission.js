@@ -3,10 +3,12 @@ import React from 'react';
 const Mission = () => (
   <div
     className="max-w-full bg-no-repeat bg-cover p-8"
-    style={{ backgroundImage: 'url(https://picsum.photos/1200/400)' }}
+    style={{
+      backgroundImage: 'url(https://i.picsum.photos/id/760/1200/400.jpg)',
+    }}
   >
     <div className="m-20 p-12 max-w-xl text-center bg-white40">
-      <h1 className="uppercase mb-6">Sift</h1>
+      <h1 className="mb-6">Sift</h1>
       <p className="italic text-xl">verb</p>
       <p className="italic my-4 text-xl">
         to isolate that which is most important or useful
