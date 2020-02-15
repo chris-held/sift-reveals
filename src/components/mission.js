@@ -7,7 +7,7 @@ const Mission = () => (
       backgroundImage: 'url(https://i.picsum.photos/id/760/1200/400.jpg)',
     }}
   >
-    <div className="m-20 p-12 max-w-xl text-center bg-white40">
+    <div className="md:m-20 p-12 max-w-xl text-center bg-white40">
       <h1 className="mb-6">Sift</h1>
       <p className="italic text-xl">verb</p>
       <p className="italic my-4 text-xl">
