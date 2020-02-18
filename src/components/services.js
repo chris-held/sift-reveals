@@ -3,8 +3,8 @@ import React from 'react';
 const Services = () => (
   <div className="mx-auto mt-10" style={{ maxWidth: 1520 }}>
     <h2 className="text-center">Sift Services</h2>
-    <div class="grid grid-cols-3 gap-4 p-10 pb-0">
-      <div class="col-span-3 md:col-span-1 text-center bg-lightblue">
+    <div className="grid grid-cols-3 gap-4 p-10 pb-0">
+      <div className="col-span-3 md:col-span-1 text-center bg-lightblue">
         <img
           src="https://i.picsum.photos/id/9/600/500.jpg"
           className="w-full"
@@ -17,7 +17,7 @@ const Services = () => (
           </p>
         </div>
       </div>
-      <div class="col-span-3 md:col-span-1 text-center bg-lightblue">
+      <div className="col-span-3 md:col-span-1 text-center bg-lightblue">
         <img
           src="https://i.picsum.photos/id/1073/600/500.jpg"
           className="w-full"
@@ -30,7 +30,7 @@ const Services = () => (
           </p>
         </div>
       </div>
-      <div class="col-span-3 md:col-span-1 text-center bg-lightblue">
+      <div className="col-span-3 md:col-span-1 text-center bg-lightblue">
         <img
           src="https://i.picsum.photos/id/529/600/500.jpg"
           className="w-full"
