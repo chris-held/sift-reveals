@@ -73,7 +73,8 @@ const Contact = () => {
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="email"
-              type="text"
+              name="email"
+              type="email"
               placeholder=""
             />
           </div>
@@ -85,6 +86,7 @@ const Contact = () => {
               How Can I Help?
             </label>
             <textarea
+              name="message"
               rows="4"
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
               id="description"
